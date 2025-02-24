@@ -17,8 +17,8 @@ project-root/ ├── app/ │ ├── init.py │ ├── main.py │ ├
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository_url>
-   cd project-root
+   git clone <https://github.com/naythee169/GenericDataReader.git>
+   cd GenericDataReader
    python -m venv venv
    source venv/bin/activate  # On Windows use: venv\Scripts\activate
    pip install -r requirements.txt
