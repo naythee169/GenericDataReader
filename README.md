@@ -27,7 +27,7 @@ project-root/ ├── app/ │ ├── init.py │ ├── main.py │ ├
    # to run the tests, use
    pytest tests/
 
-## Setup and Testing Instructions
+## Access Data Through API
 1. you can use a tool like cURL to interact with the API
    For example, to retrieve all data using cURL
    ```bash
