@@ -27,6 +27,12 @@ project-root/ ├── app/ │ ├── init.py │ ├── main.py │ ├
    # to run the tests, use
    pytest tests/
 
+## Setup and Testing Instructions
+1. you can use a tool like cURL to interact with the API
+   For example, to retrieve all data using cURL
+   ```bash
+   curl http://127.0.0.1:5000/api/data
+
 ## Challenges faced
 
 1. some version requirements were very specific. For example,
