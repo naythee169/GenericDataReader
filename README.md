@@ -26,6 +26,8 @@ project-root/ ├── app/ │ ├── init.py │ ├── main.py │ ├
 
    # to run the tests, use
    pytest tests/
+   ```
+   Note that after running the app.main command, to run the tests you will need to deactivate the virtual environment then reactivate it before running the tests
 
 ## Access Data Through API
 1. you can use a tool like cURL to interact with the API
