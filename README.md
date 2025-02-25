@@ -22,7 +22,7 @@ project-root/ ├── app/ │ ├── init.py │ ├── main.py │ ├
    python -m venv venv
    source venv/bin/activate  # On Windows use: venv\Scripts\activate
    pip install -r requirements.txt
-   python app/main.py
+   python -m app.main
 
    # to run the tests, use
    pytest tests/
