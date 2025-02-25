@@ -1,6 +1,6 @@
 from flask import Blueprint, jsonify, request
-from app.data_ingestion import DataIngestion
-from app.data_processor import DataProcessor
+from data_ingestion import DataIngestion
+from data_processor import DataProcessor
 
 api = Blueprint("api", __name__)
 

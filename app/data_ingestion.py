@@ -40,14 +40,12 @@ class DataIngestion:
                     if isinstance(rec, dict):
                         rec["file_type"] = "json"
                 return records
-            # If the data is already a list
             elif isinstance(data, list):
                 for rec in data:
                     if isinstance(rec, dict):
                         rec["file_type"] = "json"
                 return data
             else:
-                # Fallback: wrap the data in a list.
                 return [{"content": data, "file_type": "json"}]
         except Exception as e:
             print(f"Error reading JSON: {e}")
