@@ -2,8 +2,8 @@ import webbrowser
 import threading
 from time import sleep
 from flask import Flask, render_template_string
-from api_handler import api, unified_data
-from visualization import render_dashboard
+from app.api_handler import api, unified_data
+from app.visualization import render_dashboard
 
 app = Flask(__name__)
 app.register_blueprint(api)
